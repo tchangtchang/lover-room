@@ -1,0 +1,210 @@
+/*CSS de base*/
+
+body {
+    background-color: #abfce2 !important;
+    display: block;
+    margin: 0px;
+    }
+
+p {
+    line-height:0.6;
+    font-size:15px;
+}
+
+h1 {
+    padding: 27px;
+    font-family: 'Dawning of a New Day', cursive !important; 
+}
+
+h2, h3 {
+    font-family: 'Satisfy', cursive!important;
+    font-size:22px !important;
+}
+
+
+/*Player*/
+
+.canard-music {
+    display:none;
+    z-index:2;
+    left:15px;
+    position:fixed;
+    top: 15px; 
+    background-color:#fff;
+    border:10px solid;
+    border-color:#abfce2;
+}
+
+.pochette {
+    height:100px;
+    width:auto;
+}
+
+.info-song {
+    display: inline-block;
+    vertical-align: bottom;
+    padding-left:10px;
+    padding-bottom:22px;
+}
+
+.info-song p {
+    line-height: 0;
+    top: 15px;
+}
+
+.player {
+    display: block
+}
+
+
+/*Illustration du header*/
+
+.bandeau {
+    display:inline-flex
+}
+
+.first {
+    z-index:1;
+    top:0;
+}
+
+
+/*menu*/
+
+.top10 {
+    background-color: #fff;
+    margin-bottom: 30px;
+    height:110px;
+    width: 1496px;
+}
+
+.menu {
+    display:inline-flex;
+    margin-top: 15px; 
+}
+
+.menu a:hover {
+    font-weight: 500;
+    color:#000;
+    text-decoration: none;
+    border-bottom:2px solid;
+    border-color:#000;
+} 
+
+nav {
+    text-align: center;
+}
+
+li a {
+    font-family: 'megrim', cursive !important;
+    font-size: 40px;
+    color: #000;
+    margin: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#tri {
+    height: 27px;
+    width: 27px;
+    
+}
+
+
+/*tableau de chasse*/
+
+#top10 {
+    padding-bottom:30px;
+    padding-top:30px;
+}
+
+.col-sm-3 {
+    margin-top: 23px;
+}
+
+.coeur-box {
+    display:inline-table;
+}
+
+.coeur-box p {
+    text-align: center;
+    margin-right: 10px;
+}
+
+.coeur {
+    width:30px !important;
+    margin-right:10px;
+    margin-bottom: 10px;
+}
+
+.coeur:hover {
+    width:40px !important;
+}
+
+.profil {
+    text-align: right;
+    padding:0px !important;
+}
+
+.profil img {
+    width: 160px; 
+}
+
+/*formulaire*/
+
+.form {
+    height:auto;
+    width: 1496px;
+    padding:27px;
+    text-align: center;
+}
+
+label {
+    width:140px;
+}
+
+#message {
+    vertical-align: top;
+}
+
+textarea, input {
+    width:200px;
+}
+
+button {
+    margin-left:145px !important;
+    margin-top:10px !important;
+    margin-bottom:27px !important;
+    width:200px;
+    text-transform: uppercase !important;
+    letter-spacing: 6px;
+    font-weight: 300;
+    background-color:#fff;
+    border:0px;
+    border-color: #fff;
+}
+
+button:hover {
+    background-color:#abfce2;
+    border: 2px solid;
+    border-color: #fff;
+    font-weight:500;
+}
+
+.btn {
+    position:relative;
+    box-sizing:border-box;
+    background-color:#1b95e0;
+    color:#fff;
+    font-weight:500;
+    cursor:pointer;
+    padding-top:3px !important;
+    padding-bottom:3px !important;
+    font-size:15px;
+}
+
+.btn span {
+    font-size:13px;
+}
