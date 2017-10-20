@@ -60,12 +60,14 @@ h2, h3 {
 /*Illustration du header*/
 
 .bandeau {
-    display:inline-flex
+    display:inline-flex;
+    line-height: 0 !important;
 }
 
 .first {
     z-index:1;
     top:0;
+    line-height: 0;
 }
 
 
